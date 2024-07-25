@@ -1,6 +1,36 @@
+:root{
+    --cor1:#B2967D;
+    --cor2:#E6BEAE;
+    --cor3:#E7D8C9;
+    --cor4:#C84630;
+    --cor5:#ECF8F8;
+}
 *{
     font-family: "Chakra Petch", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+   background-color: var(--cor5); 
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.btn-default{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 27px;
+    color: var(--cor5);
+    background-color: var(--cor4);
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 3px 1px 0px 0px  rgb(26, 25, 25);
+    transition: background-color .3s ease;
+}
+.btn-default:hover{
+    background-color: var(--cor2);
+    color: var(--cor4);
+} 
