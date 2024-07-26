@@ -34,3 +34,15 @@ body {
     background-color: var(--cor2);
     color: var(--cor4);
 } 
+.btn-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-center {
+    /* Estilize o botão conforme sua preferência */
+    padding: 10px 20px;
+    font-size: 16px;
+}
