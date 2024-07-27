@@ -1,0 +1,17 @@
+#home{
+    display: flex;
+    margin-top: 15px;
+    min-height: calc(100vh - 102px);
+}
+
+#cta{
+    margin: auto;
+}
+#banner{
+    display: flex;
+}
+#banner > img{
+    max-width: 100%;
+    border-radius: 35%;
+
+}
