@@ -4,6 +4,7 @@
     --cor3:#E7D8C9;
     --cor4:#C84630;
     --cor5:#ECF8F8;
+    --cor6:#2c1616;
 }
 *{
     font-family: "Chakra Petch", sans-serif;
@@ -13,9 +14,6 @@
 }
 body{
    background-color: var(--cor5); 
-}
-body {
-    font-family: Arial, sans-serif;
 }
 .btn-default{
     display: flex;
@@ -34,12 +32,7 @@ body {
     background-color: var(--cor2);
     color: var(--cor4);
 } 
-.btn-quiz {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+
 
 .btn-center {
     /* Estilize o botão conforme sua preferência */
