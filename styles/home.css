@@ -1,17 +1,32 @@
 #home{
     display: flex;
-    margin-top: 15px;
-    min-height: calc(100vh - 102px);
+    min-height: calc(100vh - 84px);
+    background-image: linear-gradient(to right, #eee4e2, #9c7e66);
 }
 
 #cta{
     margin: auto;
+    padding: 20px;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.title span{
+    color: var(--cor4);
+}
+#phone{
+    text-decoration: none;
+    color: var(--cor4);
+    font-size: 16px;
+    font-weight: bolder;
 }
 #banner{
     display: flex;
 }
 #banner > img{
     max-width: 100%;
+    margin: auto;
     border-radius: 35%;
-
+    padding-right: 40px;
 }

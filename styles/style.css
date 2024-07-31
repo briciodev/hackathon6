@@ -16,6 +16,7 @@ body{
    background-color: var(--cor5); 
 }
 .btn-default{
+    margin: 25px 0px;
     display: flex;
     border: none;
     justify-content: center;
@@ -32,10 +33,23 @@ body{
     background-color: var(--cor2);
     color: var(--cor4);
 } 
-
-
 .btn-center {
     /* Estilize o botão conforme sua preferência */
     padding: 10px 20px;
     font-size: 16px;
+}
+.social-media-buttons{
+    display: flex;
+    gap: 20px;
+}
+.social-media-buttons a{
+    display: flex;
+    font-size: 26px;
+    text-decoration: none;
+    color: var(--cor1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 1px 1px var(--cor1);
+    
 }
