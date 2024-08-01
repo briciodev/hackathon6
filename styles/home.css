@@ -21,10 +21,16 @@
     font-size: 16px;
     font-weight: bolder;
 }
+#phone i{
+    margin-bottom: 25px;
+}
+#phone:hover{
+    text-decoration: underline;
+}
 #banner{
     display: flex;
 }
-#banner > img{
+#banner img{
     max-width: 100%;
     margin: auto;
     border-radius: 35%;
